@@ -3,6 +3,7 @@ from pulsebeam._table import Table
 from pulsebeam._types import CountMode, Scalar
 from pulsebeam._version import __version__
 from pulsebeam._wire import Page
+from pulsebeam.client_sync import PulsebeamClient
 from pulsebeam.errors import PostgrestError, PulsebeamConnectionError, PulsebeamError, UnexpectedResponseError
 
 __all__ = [
@@ -10,6 +11,7 @@ __all__ = [
     "InsertQuery",
     "Page",
     "PostgrestError",
+    "PulsebeamClient",
     "PulsebeamConnectionError",
     "PulsebeamError",
     "Scalar",
